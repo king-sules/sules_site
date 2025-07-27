@@ -213,7 +213,7 @@ function NeuralNetworkBackground() {
 
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full">
+    <div className="flex flex-col items-center justify-center w-full h-full relative z-20">
       <h1 className="text-5xl font-extrabold text-white mb-6 drop-shadow-lg text-center">Welcome to Suleman's Website</h1>
       <p className="text-xl text-white mb-8 text-center">You can navigate to the projects page to see my work, or the skills page to see my coding proficiencies.</p>
     </div>
@@ -597,7 +597,7 @@ function NavTabs() {
   });
   
   return (
-    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3, pl: 20 }}>
+    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3, pl: 10 }}>
       <Tabs
         value={currentTab === -1 ? 0 : currentTab}
         onChange={handleTabChange}
@@ -658,7 +658,7 @@ function AppContent() {
       {location.pathname === "/" && <NeuralNetworkBackground />}
       {/* Material UI Tabs Navigation */}
       <NavTabs />
-      <div className="absolute inset-0 w-full h-full flex flex-col items-center justify-center">
+      <div className="absolute inset-0 w-full h-full flex flex-col items-center justify-center z-10">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tech-stack" element={<TechStack />} />
