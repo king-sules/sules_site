@@ -708,9 +708,18 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <div style={{ 
+      backgroundColor: '#1e3a8a', 
+      color: 'white', 
+      padding: '50px', 
+      textAlign: 'center',
+      minHeight: '100vh',
+      fontFamily: 'Arial, sans-serif'
+    }}>
+      <h1>🚀 Sules Site is Working!</h1>
+      <p>If you can see this, React is working correctly.</p>
+      <p>This is a test to see if the basic setup is working.</p>
+    </div>
   );
 }
 
