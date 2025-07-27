@@ -1,0 +1,184 @@
+{
+  "hash": "439e26e6",
+  "configHash": "baedba98",
+  "lockfileHash": "c013c64f",
+  "browserHash": "5e4c5281",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "46811814",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e5f2ad2e",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "8f7d4095",
+      "needsInterop": false
+    },
+    "p5": {
+      "src": "../../node_modules/p5/dist/app.js",
+      "file": "p5.js",
+      "fileHash": "e2f4cd19",
+      "needsInterop": false
+    },
+    "@mui/material/Tabs": {
+      "src": "../../node_modules/@mui/material/esm/Tabs/index.js",
+      "file": "@mui_material_Tabs.js",
+      "fileHash": "b81a782f",
+      "needsInterop": false
+    },
+    "@mui/material/Tab": {
+      "src": "../../node_modules/@mui/material/esm/Tab/index.js",
+      "file": "@mui_material_Tab.js",
+      "fileHash": "58224df4",
+      "needsInterop": false
+    },
+    "@mui/material/Box": {
+      "src": "../../node_modules/@mui/material/esm/Box/index.js",
+      "file": "@mui_material_Box.js",
+      "fileHash": "04d467cb",
+      "needsInterop": false
+    },
+    "@mui/material/Table": {
+      "src": "../../node_modules/@mui/material/esm/Table/index.js",
+      "file": "@mui_material_Table.js",
+      "fileHash": "698abfae",
+      "needsInterop": false
+    },
+    "@mui/material/TableBody": {
+      "src": "../../node_modules/@mui/material/esm/TableBody/index.js",
+      "file": "@mui_material_TableBody.js",
+      "fileHash": "0b832426",
+      "needsInterop": false
+    },
+    "@mui/material/TableCell": {
+      "src": "../../node_modules/@mui/material/esm/TableCell/index.js",
+      "file": "@mui_material_TableCell.js",
+      "fileHash": "d4193434",
+      "needsInterop": false
+    },
+    "@mui/material/TableContainer": {
+      "src": "../../node_modules/@mui/material/esm/TableContainer/index.js",
+      "file": "@mui_material_TableContainer.js",
+      "fileHash": "529b268f",
+      "needsInterop": false
+    },
+    "@mui/material/TableHead": {
+      "src": "../../node_modules/@mui/material/esm/TableHead/index.js",
+      "file": "@mui_material_TableHead.js",
+      "fileHash": "e97318e7",
+      "needsInterop": false
+    },
+    "@mui/material/TableRow": {
+      "src": "../../node_modules/@mui/material/esm/TableRow/index.js",
+      "file": "@mui_material_TableRow.js",
+      "fileHash": "4ace75ab",
+      "needsInterop": false
+    },
+    "@mui/material/Paper": {
+      "src": "../../node_modules/@mui/material/esm/Paper/index.js",
+      "file": "@mui_material_Paper.js",
+      "fileHash": "f131738d",
+      "needsInterop": false
+    },
+    "@mui/material/Card": {
+      "src": "../../node_modules/@mui/material/esm/Card/index.js",
+      "file": "@mui_material_Card.js",
+      "fileHash": "c49c5158",
+      "needsInterop": false
+    },
+    "@mui/material/CardContent": {
+      "src": "../../node_modules/@mui/material/esm/CardContent/index.js",
+      "file": "@mui_material_CardContent.js",
+      "fileHash": "f6089169",
+      "needsInterop": false
+    },
+    "@mui/material/CardActions": {
+      "src": "../../node_modules/@mui/material/esm/CardActions/index.js",
+      "file": "@mui_material_CardActions.js",
+      "fileHash": "2daf217f",
+      "needsInterop": false
+    },
+    "@mui/material/Typography": {
+      "src": "../../node_modules/@mui/material/esm/Typography/index.js",
+      "file": "@mui_material_Typography.js",
+      "fileHash": "8e1f18a4",
+      "needsInterop": false
+    },
+    "@mui/material/Button": {
+      "src": "../../node_modules/@mui/material/esm/Button/index.js",
+      "file": "@mui_material_Button.js",
+      "fileHash": "b9622159",
+      "needsInterop": false
+    },
+    "@mui/material/Grid": {
+      "src": "../../node_modules/@mui/material/esm/Grid/index.js",
+      "file": "@mui_material_Grid.js",
+      "fileHash": "15c97777",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-MOQUYOI2": {
+      "file": "chunk-MOQUYOI2.js"
+    },
+    "chunk-G4FQZWC4": {
+      "file": "chunk-G4FQZWC4.js"
+    },
+    "chunk-5WY3SWDK": {
+      "file": "chunk-5WY3SWDK.js"
+    },
+    "chunk-OS7O7KYK": {
+      "file": "chunk-OS7O7KYK.js"
+    },
+    "chunk-7BSFA7O3": {
+      "file": "chunk-7BSFA7O3.js"
+    },
+    "chunk-JX37XSKT": {
+      "file": "chunk-JX37XSKT.js"
+    },
+    "chunk-XE2STDAP": {
+      "file": "chunk-XE2STDAP.js"
+    },
+    "chunk-KY7LCLZO": {
+      "file": "chunk-KY7LCLZO.js"
+    },
+    "chunk-TLOX2IAS": {
+      "file": "chunk-TLOX2IAS.js"
+    },
+    "chunk-2BGVR65D": {
+      "file": "chunk-2BGVR65D.js"
+    },
+    "chunk-GWWLNGPM": {
+      "file": "chunk-GWWLNGPM.js"
+    },
+    "chunk-VC7TYRAA": {
+      "file": "chunk-VC7TYRAA.js"
+    },
+    "chunk-O7REE3NA": {
+      "file": "chunk-O7REE3NA.js"
+    },
+    "chunk-CDEW6Z3Q": {
+      "file": "chunk-CDEW6Z3Q.js"
+    },
+    "chunk-5GSSWAVX": {
+      "file": "chunk-5GSSWAVX.js"
+    },
+    "chunk-XXVMCQ4N": {
+      "file": "chunk-XXVMCQ4N.js"
+    },
+    "chunk-D2KY6O3O": {
+      "file": "chunk-D2KY6O3O.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}
