@@ -597,7 +597,7 @@ function NavTabs() {
   });
   
   return (
-    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3, pl: 10 }}>
+    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3, pl: 5 }}>
       <Tabs
         value={currentTab === -1 ? 0 : currentTab}
         onChange={handleTabChange}
