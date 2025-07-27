@@ -572,7 +572,7 @@ function NavTabs() {
     
     if (selectedTab.path === "/resume") {
       // Open PDF in new tab
-      window.open('/Sules_Resume.pdf', '_blank');
+      window.open('/sules_site/Sules_Resume.pdf', '_blank');
       return; // Don't navigate, just open PDF
     } else if (selectedTab.path === "/github") {
       // Open GitHub website in new tab
@@ -597,7 +597,7 @@ function NavTabs() {
   });
   
   return (
-    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3 }}>
+    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3, pl: 20 }}>
       <Tabs
         value={currentTab === -1 ? 0 : currentTab}
         onChange={handleTabChange}
@@ -654,10 +654,8 @@ function AppContent() {
         className="fixed top-4 left-4 w-32 h-32 rounded-full object-cover border-2 border-gray-900 shadow-lg z-30 overflow-hidden"
         style={{ maxWidth: 128, maxHeight: 128, background: '#222' }}
       />
-      {/* Only show neural network on Home page */}
-      <Routes>
-        <Route path="/" element={<NeuralNetworkBackground />} />
-      </Routes>
+      {/* Show neural network only on Home page */}
+      {location.pathname === "/" && <NeuralNetworkBackground />}
       {/* Material UI Tabs Navigation */}
       <NavTabs />
       <div className="absolute inset-0 w-full h-full flex flex-col items-center justify-center">
