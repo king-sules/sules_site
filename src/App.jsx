@@ -705,7 +705,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/sules_site">
       <AppContent />
     </Router>
   );
