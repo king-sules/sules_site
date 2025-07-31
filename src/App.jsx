@@ -597,25 +597,39 @@ function NavTabs() {
   });
   
   return (
-    <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', position: 'fixed', top: 0, left: 0, zIndex: 20, bgcolor: 'transparent', pt: 3, pl: 5 }}>
+    <Box sx={{ 
+      width: '100%', 
+      display: 'flex', 
+      justifyContent: 'center', 
+      position: 'fixed', 
+      top: 0, 
+      left: 0, 
+      zIndex: 20, 
+      bgcolor: 'transparent', 
+      pt: 3, 
+      pl: { xs: 1, sm: 2, md: 5 },
+      pr: { xs: 1, sm: 2, md: 0 }
+    }}>
       <Tabs
         value={currentTab === -1 ? 0 : currentTab}
         onChange={handleTabChange}
-        variant="standard"
+        variant="scrollable"
+        scrollButtons="auto"
+        allowScrollButtonsMobile
         TabIndicatorProps={{ style: { background: 'linear-gradient(to right, #60a5fa, #3b82f6, #1e40af)' } }}
         sx={{
-          gap: 3,
+          gap: { xs: 1, sm: 2, md: 3 },
           '.MuiTab-root': {
-            minWidth: 120,
-            minHeight: 56,
-            mx: 2,
-            px: 4,
-            py: 1.5,
+            minWidth: { xs: 80, sm: 100, md: 120 },
+            minHeight: { xs: 48, sm: 52, md: 56 },
+            mx: { xs: 0.5, sm: 1, md: 2 },
+            px: { xs: 2, sm: 3, md: 4 },
+            py: { xs: 1, sm: 1.25, md: 1.5 },
             borderRadius: 3,
             bgcolor: 'rgba(30,41,59,0.85)',
             color: 'white',
             fontWeight: 700,
-            fontSize: '1.1rem',
+            fontSize: { xs: '0.9rem', sm: '1rem', md: '1.1rem' },
             boxShadow: 3,
             border: '2px solid #cbd5e1',
             transition: 'all 0.2s',
